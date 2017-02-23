@@ -4,6 +4,7 @@ Gradle 3.4's reproducible builds feature should build an identical jar file each
 
 ## Steps to reproduce the issue.
 (run all commands from the root project directory)
+
 1. Clean and build the java-plugin project twice to generate two jar files. (The clean guarantees that a new jar will be built.)
     1. `./gradlew clean java-plugin:build`
     1. `cp java-plugin/build/libs/java-plugin-0.0.1-SNAPSHOT.jar /tmp/java-plugin-1.jar`
