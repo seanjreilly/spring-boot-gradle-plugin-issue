@@ -1,0 +1,6 @@
+apply plugin: 'java'
+
+dependencies {
+    //add a compile dependency so the example isn't completely trivial (it's not used)
+    compile 'org.springframework:spring-core:4.3.6.RELEASE'
+}

@@ -1,0 +1,13 @@
+allprojects { project ->
+
+    repositories {
+        mavenCentral()
+    }
+
+    version = '0.0.1-SNAPSHOT'
+
+    project.tasks.withType(AbstractArchiveTask) {
+        preserveFileTimestamps = false
+        reproducibleFileOrder = true
+    }
+}

@@ -1,0 +1,2 @@
+include 'java-plugin'
+include 'spring-boot-plugin'
